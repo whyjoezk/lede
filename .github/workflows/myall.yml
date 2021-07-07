@@ -65,16 +65,12 @@ jobs:
           CONFIG_TARGET_x86=y
           CONFIG_TARGET_x86_64=y
           CONFIG_TARGET_x86_64_DEVICE_generic=y
-          # CONFIG_DRIVER_11AC_SUPPORT is not set
-          # CONFIG_DRIVER_11N_SUPPORT is not set
           CONFIG_LIBMBEDTLS_HAVE_SSE2=y
           CONFIG_LIBSODIUM_MINIMAL=y
           # CONFIG_PACKAGE_UnblockNeteaseMusicGo is not set
           # CONFIG_PACKAGE_adbyby is not set
-          # CONFIG_PACKAGE_ath9k-htc-firmware is not set
           # CONFIG_PACKAGE_autosamba is not set
           CONFIG_PACKAGE_bash=y
-          # CONFIG_PACKAGE_bnx2-firmware is not set
           CONFIG_PACKAGE_boost=y
           CONFIG_PACKAGE_boost-date_time=y
           CONFIG_PACKAGE_boost-program_options=y
@@ -91,61 +87,19 @@ jobs:
           CONFIG_PACKAGE_ipt2socks=y
           # CONFIG_PACKAGE_iptables-mod-ipsec is not set
           CONFIG_PACKAGE_iptables-mod-tproxy=y
-          # CONFIG_PACKAGE_iw is not set
-          # CONFIG_PACKAGE_kmod-8139cp is not set
-          # CONFIG_PACKAGE_kmod-8139too is not set
-          # CONFIG_PACKAGE_kmod-amazon-ena is not set
-          # CONFIG_PACKAGE_kmod-amd-xgbe is not set
-          # CONFIG_PACKAGE_kmod-ath is not set
-          # CONFIG_PACKAGE_kmod-ath10k is not set
-          # CONFIG_PACKAGE_kmod-ath5k is not set
-          # CONFIG_PACKAGE_kmod-ath9k is not set
-          # CONFIG_PACKAGE_kmod-ath9k-htc is not set
-          # CONFIG_PACKAGE_kmod-bnx2 is not set
-          # CONFIG_PACKAGE_kmod-cfg80211 is not set
           # CONFIG_PACKAGE_kmod-crypto-cbc is not set
-          # CONFIG_PACKAGE_kmod-crypto-ccm is not set
-          # CONFIG_PACKAGE_kmod-crypto-cmac is not set
-          # CONFIG_PACKAGE_kmod-crypto-ctr is not set
           # CONFIG_PACKAGE_kmod-crypto-deflate is not set
           # CONFIG_PACKAGE_kmod-crypto-des is not set
           # CONFIG_PACKAGE_kmod-crypto-echainiv is not set
-          # CONFIG_PACKAGE_kmod-crypto-gcm is not set
-          # CONFIG_PACKAGE_kmod-crypto-gf128 is not set
-          # CONFIG_PACKAGE_kmod-crypto-ghash is not set
-          # CONFIG_PACKAGE_kmod-crypto-hmac is not set
           # CONFIG_PACKAGE_kmod-crypto-md5 is not set
-          # CONFIG_PACKAGE_kmod-crypto-rng is not set
-          # CONFIG_PACKAGE_kmod-crypto-seqiv is not set
-          # CONFIG_PACKAGE_kmod-crypto-sha256 is not set
-          # CONFIG_PACKAGE_kmod-forcedeth is not set
-          # CONFIG_PACKAGE_kmod-hwmon-core is not set
-          # CONFIG_PACKAGE_kmod-i2c-algo-bit is not set
-          # CONFIG_PACKAGE_kmod-i2c-core is not set
-          # CONFIG_PACKAGE_kmod-i40e is not set
-          # CONFIG_PACKAGE_kmod-igb is not set
-          # CONFIG_PACKAGE_kmod-igbvf is not set
-          # CONFIG_PACKAGE_kmod-igc is not set
           CONFIG_PACKAGE_kmod-ip6tables=y
           # CONFIG_PACKAGE_kmod-ipsec is not set
           # CONFIG_PACKAGE_kmod-ipt-ipsec is not set
           CONFIG_PACKAGE_kmod-ipt-tproxy=y
           # CONFIG_PACKAGE_kmod-iptunnel6 is not set
-          # CONFIG_PACKAGE_kmod-ixgbe is not set
-          # CONFIG_PACKAGE_kmod-ixgbevf is not set
-          # CONFIG_PACKAGE_kmod-lib-crc32c is not set
-          # CONFIG_PACKAGE_kmod-mac80211 is not set
-          # CONFIG_PACKAGE_kmod-mlx4-core is not set
-          # CONFIG_PACKAGE_kmod-mlx5-core is not set
           # CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
           CONFIG_PACKAGE_kmod-nf-ipt6=y
           CONFIG_PACKAGE_kmod-nf-reject6=y
-          # CONFIG_PACKAGE_kmod-pcnet32 is not set
-          # CONFIG_PACKAGE_kmod-r8125 is not set
-          # CONFIG_PACKAGE_kmod-r8168 is not set
-          # CONFIG_PACKAGE_kmod-rt2800-usb is not set
-          # CONFIG_PACKAGE_kmod-rt2x00-lib is not set
-          # CONFIG_PACKAGE_kmod-tulip is not set
           # CONFIG_PACKAGE_kmod-tun is not set
           CONFIG_PACKAGE_libatomic=y
           CONFIG_PACKAGE_libbpf=y
@@ -178,6 +132,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-samba is not set
           # CONFIG_PACKAGE_luci-app-unblockmusic is not set
           # CONFIG_PACKAGE_luci-app-uugamebooster is not set
+          # CONFIG_PACKAGE_luci-app-vsftpd is not set
           CONFIG_PACKAGE_luci-app-vssr=y
           # CONFIG_PACKAGE_luci-app-wol is not set
           # CONFIG_PACKAGE_luci-app-xlnetacc is not set
@@ -188,7 +143,6 @@ jobs:
           # CONFIG_PACKAGE_nlbwmon is not set
           # CONFIG_PACKAGE_qBittorrent-static is not set
           CONFIG_PACKAGE_resolveip=y
-          # CONFIG_PACKAGE_rt2800-usb-firmware is not set
           # CONFIG_PACKAGE_samba36-server is not set
           CONFIG_PACKAGE_shadowsocks-libev-config=y
           CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
@@ -205,7 +159,7 @@ jobs:
           CONFIG_PACKAGE_unzip=y
           # CONFIG_PACKAGE_uugamebooster is not set
           CONFIG_PACKAGE_v2ray-plugin=y
-          # CONFIG_PACKAGE_wireless-regdb is not set
+          # CONFIG_PACKAGE_vsftpd-alt is not set
           # CONFIG_PACKAGE_wol is not set
           # CONFIG_PACKAGE_wsdd2 is not set
           CONFIG_PACKAGE_xray-core=y
