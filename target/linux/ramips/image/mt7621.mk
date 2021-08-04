@@ -407,6 +407,7 @@ define Device/d-team_newifi-d2
   IMAGE_SIZE := 32448k
   DEVICE_VENDOR := Newifi
   DEVICE_MODEL := D2
+  DEVICE_COMPAT_VERSION := 1.1
   DEVICE_PACKAGES := kmod-mt7603e kmod-mt76x2e kmod-usb3 \
 	kmod-usb-ledtrig-usbport luci-app-mtwifi -wpad-openssl
 endef
@@ -1152,6 +1153,7 @@ define Device/phicomm_k2p
   DEVICE_VENDOR := Phicomm
   DEVICE_MODEL := K2P
   SUPPORTED_DEVICES += k2p
+  DEVICE_COMPAT_VERSION := 1.1
   DEVICE_PACKAGES := -luci-newapi -wpad-openssl kmod-mt7615d_dbdc wireless-tools
 endef
 TARGET_DEVICES += phicomm_k2p
@@ -1474,6 +1476,7 @@ endef
 TARGET_DEVICES += winstars_ws-wn583a6
 
 define Device/xiaomi_nand_separate
+  $(Device/dsa-migration)
   $(Device/uimage-lzma-loader)
   DEVICE_VENDOR := Xiaomi
   DEVICE_PACKAGES := uboot-envtools
@@ -1488,7 +1491,6 @@ define Device/xiaomi_nand_separate
 endef
 
 define Device/xiaomi_mi-router-3g
-  $(Device/dsa-migration)
   $(Device/xiaomi_nand_separate)
   DEVICE_MODEL := Mi Router 3G
   IMAGE_SIZE := 124416k
@@ -1531,7 +1533,6 @@ endef
 TARGET_DEVICES += xiaomi_mi-router-3-pro
 
 define Device/xiaomi_mi-router-4
-  $(Device/dsa-migration)
   $(Device/xiaomi_nand_separate)
   DEVICE_MODEL := Mi Router 4
   IMAGE_SIZE := 124416k
@@ -1591,6 +1592,7 @@ define Device/xiaoyu_xy-c5
   IMAGE_SIZE := 32448k
   DEVICE_VENDOR := XiaoYu
   DEVICE_MODEL := XY-C5
+  DEVICE_COMPAT_VERSION := 1.1
   DEVICE_PACKAGES := kmod-ata-ahci kmod-usb3 -wpad-openssl
 endef
 TARGET_DEVICES += xiaoyu_xy-c5
