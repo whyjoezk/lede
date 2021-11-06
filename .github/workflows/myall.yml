@@ -69,6 +69,7 @@ jobs:
           # CONFIG_DRIVER_11N_SUPPORT is not set
           CONFIG_LIBMBEDTLS_HAVE_SSE2=y
           CONFIG_LIBSODIUM_MINIMAL=y
+          CONFIG_TARGET_ROOTFS_TARGZ=y
           # CONFIG_PACKAGE_UnblockNeteaseMusicGo is not set
           # CONFIG_PACKAGE_adbyby is not set
           # CONFIG_PACKAGE_ath10k-board-qca9888 is not set
