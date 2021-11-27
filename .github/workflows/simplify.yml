@@ -298,7 +298,8 @@ jobs:
 
       - name: Upload release asset
         # if: github.event == 'release'
-        uses: svenstaro/upload-release-action@v2
+        # uses: svenstaro/upload-release-action@v2
+        uses: svenstaro/upload-release-action@d8cafc3c8751f88ceb949832cb42148798fb08d9
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./artifact/firmware/*
