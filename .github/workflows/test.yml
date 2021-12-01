@@ -10,7 +10,7 @@ name: my-OpenWrt-CI-test
 on:
   push:
     branches:
-      - master
+      - 20210707
 
 jobs:
 
