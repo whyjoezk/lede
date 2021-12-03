@@ -3,7 +3,7 @@ name: OPENWRT-20200418-simplify
 on:
   push:
     branches:
-      - 20200418
+      - 20210418
 
 jobs:
 
@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: 20200418
+          ref: 20210418
 
       - name: Space cleanup
         env:
