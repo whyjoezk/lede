@@ -101,7 +101,6 @@ jobs:
           CONFIG_PACKAGE_libltdl=y
           CONFIG_PACKAGE_liblua5.3=y
           CONFIG_PACKAGE_libmaxminddb=y
-          CONFIG_PACKAGE_libuv=y
           CONFIG_PACKAGE_lua-cjson=y
           CONFIG_PACKAGE_lua-maxminddb=y
           CONFIG_PACKAGE_luasocket=y
