@@ -79,6 +79,7 @@ jobs:
           CONFIG_PACKAGE_chinadns-ng=y
           CONFIG_PACKAGE_coreutils-nohup=y
           CONFIG_PACKAGE_haproxy=y
+          CONFIG_PACKAGE_https-dns-proxy=y
           CONFIG_PACKAGE_ipt2socks=y
           CONFIG_PACKAGE_iptables-mod-iprange=y
           # CONFIG_PACKAGE_kmod-8139cp is not set
@@ -123,6 +124,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-ddns is not set
           # CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs is not set
           # CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk is not set
+          CONFIG_PACKAGE_luci-app-https-dns-proxy=y
           # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
           # CONFIG_PACKAGE_luci-app-nlbwmon is not set
           CONFIG_PACKAGE_luci-app-passwall=y
