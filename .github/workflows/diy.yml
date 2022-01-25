@@ -36,16 +36,16 @@ jobs:
           df -h
       - name: add app
         run: |
-          # echo 'src-git helloworld https://github.com/fw876/helloworld^3f549ea84218a2aab57bd08b0fb1576bb428459b' >>feeds.conf.default
-          # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall^6681ddb636a919e0af2715386cbddd2de7b02d09' >>feeds.conf.default
+          echo 'src-git helloworld https://github.com/fw876/helloworld^3f549ea84218a2aab57bd08b0fb1576bb428459b' >>feeds.conf.default
+          echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall^6681ddb636a919e0af2715386cbddd2de7b02d09' >>feeds.conf.default
           # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
           # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-          # cd package/lean/
-          # rm -rf luci-theme-argon
-          # git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
-          # git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git
-          # git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr.git
-          # cd ../
+          cd package/lean/
+          rm -rf luci-theme-argon
+          git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+          git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git
+          git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr.git
+          cd ../
       - name: Update feeds
         run: |
           ./scripts/feeds update -a
